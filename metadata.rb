@@ -1,10 +1,12 @@
 name 'upload_file'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Carlos Beleño Caballero'
+maintainer_email 'cbeleno@redsis.com'
 license 'all_rights'
 description 'Installs/Configures upload_file'
-long_description 'Installs/Configures upload_file'
-version '0.1.0'
+version '1.6.1'
+long_description 'Cookbook to upload files from nodes to Azure Storage.'
+depends 'windows', '~> 1.44.1'
+depends 'edit_file'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link

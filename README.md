@@ -1,4 +1,3 @@
 # upload_file
 
-TODO: Enter the cookbook description here.
-
+Cookbook to upload files from nodes to Azure Storage.
